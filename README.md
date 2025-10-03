@@ -36,5 +36,5 @@ microbit-build <build_command>
 docker run -v $(pwd):/home --rm ghcr.io/carlosperate/microbit-toolchain:latest <build_command>
 ```
 **In both cases, don't forget to replace ``<build_command>`` with your projects building command:**
-- in case of **microbit-samples** it is ``yotta build``
-- in case of **microbit-v2-samples** it is ``python build.py``
+- in case of **microbit-samples** - ``yotta build``
+- in case of **microbit-v2-samples** - ``python build.py``

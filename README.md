@@ -25,7 +25,7 @@ TODO()
 
 ## Run
 1. Open the terminal from project's root folder.
-2. Type this command. Don't forgen to replace ``<build_command>`` to your projects building command (like ``python build.py`` or ``yotta build``).
+2. Type this command. Don't forget to replace ``<build_command>`` with your projects building command (like ``python build.py`` or ``yotta build``).
 ```
 # shortcut for docker run -v $(pwd):/home --rm ghcr.io/carlosperate/microbit-toolchain:latest <build_command>
 microbit-build <build_command>

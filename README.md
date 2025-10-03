@@ -1,5 +1,5 @@
 # eazy-microbit-cpp
-Compiling c++ code for microbit made a bit easier.
+Compiling of C++ code for microbit made a bit easier.
 _This repository presents a shortcut for commands from [this repository](https://github.com/carlosperate/docker-microbit-toolchain)._
 
 
@@ -10,6 +10,7 @@ _This repository presents a shortcut for commands from [this repository](https:/
     - **microbit v2**: [microbit-v2-samples](https://github.com/lancaster-university/microbit-v2-samples)
 3. Modify its source code however you want.
 4. Compile it (see "Run").
+5. Connect your microbit to your PC and move the appended in project's root folder hex-file in the microbits' storage.
 
 
 ## Installation

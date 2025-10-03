@@ -5,7 +5,7 @@ _This repository presents a shortcut for commands from [this repository](https:/
 
 ## How do I create a project?
 1. Complete installation steps (see "Installation").
-2. Copy one of following repos with samples to your folder:
+2. Clone one of following repos with samples to your folder:
     - **microbit**: [microbit-samples](https://github.com/lancaster-university/microbit-samples)
     - **microbit v2**: [microbit-v2-samples](https://github.com/lancaster-university/microbit-v2-samples)
 3. Modify its source code however you want.
@@ -19,15 +19,22 @@ _This repository presents a shortcut for commands from [this repository](https:/
 # Fetch Docker container from GitHub Container Registry
 docker pull ghcr.io/carlosperate/microbit-toolchain:latest
 ```
-2. Then:
+2. Optionally for linux users:
 ```
 TODO()
 ```
 
 ## Run
 1. Open the terminal from project's root folder.
-2. Type this command. Don't forget to replace ``<build_command>`` with your projects building command (like ``python build.py`` or ``yotta build``).
+2. Type one these commands:
 ```
-# shortcut for docker run -v $(pwd):/home --rm ghcr.io/carlosperate/microbit-toolchain:latest <build_command>
+# If you have complete step 2 in "Installation"
 microbit-build <build_command>
 ```
+```
+# If you have not comlete step 2 in "Installation"
+docker run -v $(pwd):/home --rm ghcr.io/carlosperate/microbit-toolchain:latest <build_command>
+```
+**Don't forget to replace ``<build_command>`` with your projects building command:**
+    - in case of **microbit-samples** it is ``yotta build``
+    - in case of **microbit-v2-samples** it is ``python build.py``

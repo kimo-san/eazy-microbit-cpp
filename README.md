@@ -1,5 +1,5 @@
 # eazy-microbit-cpp
-Compiling of C++ code for microbit made a bit easier.
+Making of C++ code for microbit made a bit easier.
 _This repository presents a shortcut for commands from [this repository](https://github.com/carlosperate/docker-microbit-toolchain)._
 
 
@@ -26,7 +26,7 @@ TODO()
 
 ## Run
 1. Open the terminal from project's root folder.
-2. Type one these commands:
+2. Type one of these commands:
 ```
 # If you have complete step 2 in "Installation"
 microbit-build <build_command>

@@ -1,4 +1,4 @@
-# eazy-microbit-on-cpp
+# eazy-microbit-cpp
 Compiling c++ code for microbit made a bit easier.
 _This repository presents a shortcut for commands from [this repository](https://github.com/carlosperate/docker-microbit-toolchain)._
 

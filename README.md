@@ -14,7 +14,7 @@ _This repository presents a shortcut for commands from [this repository](https:/
 
 
 ## Installation
-1. Type this command into terminal. If you don't already have Docker on your machine, you need additionally install it.
+1. Paste this command into terminal. If you don't already have Docker on your machine, you need additionally install it.
 ```
 # Fetch Docker container from GitHub Container Registry
 docker pull ghcr.io/carlosperate/microbit-toolchain:latest

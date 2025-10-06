@@ -15,9 +15,7 @@ _This repository presents a shortcut for commands from [this repository](https:/
 
 ## Installation
 ```
-# Install a good looking shortcut
-cd ./.local/bin/
-wget https://raw.githubusercontent.com/kimo-san/eazy-microbit-cpp/refs/heads/main/micro-bit
+curl https://raw.githubusercontent.com/kimo-san/eazy-microbit-cpp/refs/heads/main/installation.sh | bash
 ```
 
 ## Usage

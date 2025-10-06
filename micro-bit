@@ -1,3 +1,4 @@
+#!/bin/bash
 echo-title() {
     local text="$2"
     local format="$1"

@@ -20,9 +20,8 @@ curl https://raw.githubusercontent.com/kimo-san/eazy-microbit-cpp/refs/heads/mai
 
 ## Running
 1. Open the terminal from project's root folder.
-2. Type one of these commands:
+2. Type the following command. It will generated the hex-file in the project's folder.
 ```
-# If you have complete step 2 in "Installation"
 microbit-build <build_command>
 ```
 **Do not forget to replace ``<build_command>`` with your project's building command:**

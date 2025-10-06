@@ -20,10 +20,10 @@ curl https://raw.githubusercontent.com/kimo-san/eazy-microbit-cpp/refs/heads/mai
 
 ## Building
 1. Open the terminal from project's root folder.
-2. Type the following command. It will generate the hex-file in the project's folder.
+2. Type the following command. It will generate the hex-file in the project's folder. Do not forget to replace ``<build_command>`` with your project's building command:
+- in case of **microbit-samples** - ``yotta build``
+- in case of **microbit-v2-samples** - ``python build.py``
+
 ```
 microbit-build <build_command>
 ```
-**Do not forget to replace ``<build_command>`` with your project's building command:**
-- in case of **microbit-samples** - ``yotta build``
-- in case of **microbit-v2-samples** - ``python build.py``

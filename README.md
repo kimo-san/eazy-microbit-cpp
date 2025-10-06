@@ -15,10 +15,10 @@ curl https://raw.githubusercontent.com/kimo-san/eazy-microbit-cpp/refs/heads/mai
     - **microbit**: [microbit-samples](https://github.com/lancaster-university/microbit-samples)
     - **microbit v2**: [microbit-v2-samples](https://github.com/lancaster-university/microbit-v2-samples)
 3. Modify its source code however you want.
-4. Compile it (see Running).
+4. Compile it (see Building).
 5. Move the appended hex-file in your microbits' storage.
 
-## Running
+## Building
 1. Open the terminal from project's root folder.
 2. Type the following command. It will generate the hex-file in the project's folder.
 ```

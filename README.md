@@ -21,7 +21,9 @@ docker pull ghcr.io/carlosperate/microbit-toolchain:latest
 ```
 2. Optionally for linux users:
 ```
-TODO()
+# Install a good looking shortcut
+cd ./.local/bin/
+wget https://raw.githubusercontent.com/kimo-san/eazy-microbit-cpp/refs/heads/main/micro-bit
 ```
 
 ## Run

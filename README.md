@@ -1,6 +1,6 @@
 # eazy-microbit-cpp
 
-Coding on C++ for microbit has been made a bit easier.
+Coding on C++ for microbit has been made easier.
 **Thanks to this repository: https://github.com/carlosperate/docker-microbit-toolchain.**
 
 ## Installation

@@ -9,24 +9,18 @@ _This repository presents a shortcut for commands from [this repository](https:/
     - **microbit**: [microbit-samples](https://github.com/lancaster-university/microbit-samples)
     - **microbit v2**: [microbit-v2-samples](https://github.com/lancaster-university/microbit-v2-samples)
 3. Modify its source code however you want.
-4. Compile it (see Run).
+4. Compile it (see Usage).
 5. Move the appended hex-file in your microbits' storage.
 
 
 ## Installation
-1. Paste this command into terminal. If you don't already have Docker on your machine, you need additionally install it.
-```
-# Fetch Docker container from GitHub Container Registry
-docker pull ghcr.io/carlosperate/microbit-toolchain:latest
-```
-2. Optionally for linux users:
 ```
 # Install a good looking shortcut
 cd ./.local/bin/
 wget https://raw.githubusercontent.com/kimo-san/eazy-microbit-cpp/refs/heads/main/micro-bit
 ```
 
-## Run
+## Usage
 1. Open the terminal from project's root folder.
 2. Type one of these commands:
 ```

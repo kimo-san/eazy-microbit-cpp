@@ -4,12 +4,12 @@ _This repository presents a shortcut for commands from [this repository](https:/
 
 
 ## How do I create a project?
-1. Complete installation steps (see [Installation]).
+1. Complete installation steps (see Installation).
 2. Clone one of the following repositories to your folder:
     - **microbit**: [microbit-samples](https://github.com/lancaster-university/microbit-samples)
     - **microbit v2**: [microbit-v2-samples](https://github.com/lancaster-university/microbit-v2-samples)
 3. Modify its source code however you want.
-4. Compile it (see [Run]).
+4. Compile it (see Run).
 5. Move the appended hex-file in your microbits' storage.
 
 

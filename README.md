@@ -14,6 +14,7 @@ _This repository presents a shortcut for commands from [this repository](https:/
 
 
 ## Installation
+This repo depends on Docker, so install it if you still do not have it.
 ```
 curl https://raw.githubusercontent.com/kimo-san/eazy-microbit-cpp/refs/heads/main/installation.sh | bash
 ```
@@ -25,10 +26,6 @@ curl https://raw.githubusercontent.com/kimo-san/eazy-microbit-cpp/refs/heads/mai
 # If you have complete step 2 in "Installation"
 microbit-build <build_command>
 ```
-```
-# If you have not complete step 2 in "Installation"
-docker run -v $(pwd):/home --rm ghcr.io/carlosperate/microbit-toolchain:latest <build_command>
-```
-**In both cases, don't forget to replace ``<build_command>`` with your project's building command:**
+**Do not forget to replace ``<build_command>`` with your project's building command:**
 - in case of **microbit-samples** - ``yotta build``
 - in case of **microbit-v2-samples** - ``python build.py``

@@ -3,6 +3,10 @@
 Coding on C++ for microbit has been made easier.
 **Thanks to this repository: https://github.com/carlosperate/docker-microbit-toolchain.**
 
+## Requirements
+- Installed Docker
+- Tested on Ubuntu
+
 ## Installation
 This repo depends on Docker, so install it if you still do not have it.
 ```

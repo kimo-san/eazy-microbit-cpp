@@ -2,6 +2,8 @@
 
 
 # run docker
+sudo chmod 660 /var/run/docker.sock
+sudo chown root:docker /var/run/docker.sock
 systemctl start docker
 # fetch the latest version of the container
 docker pull ghcr.io/carlosperate/microbit-toolchain:latest

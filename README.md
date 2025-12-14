@@ -5,7 +5,7 @@ Coding on C++ for microbit has been made easier.
 
 ## Requirements
 - Installed Docker
-- Tested on Ubuntu
+- Ubuntu (I did not test it on other OS)
 
 ## Installation
 This repo depends on Docker, so install it if you still do not have it.

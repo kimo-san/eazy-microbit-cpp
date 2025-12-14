@@ -9,6 +9,7 @@ Coding on C++ for microbit has been made easier.
 
 ## Installation
 This repo depends on Docker, so install it if you still do not have it.
+Then, execute installation script like showed below:
 ```
 curl https://raw.githubusercontent.com/kimo-san/eazy-microbit-cpp/refs/heads/main/installation.sh | bash
 ```
